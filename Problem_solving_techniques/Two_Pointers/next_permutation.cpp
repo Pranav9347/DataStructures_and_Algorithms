@@ -1,3 +1,9 @@
+// LeetCode Problem: https://leetcode.com/problems/next-permutation/
+
+#include <vector>
+#include <algorithm>
+#include <iostream>
+using namespace std;
 class Solution {
 public:
     void swap(vector<int>::iterator i1,vector<int>::iterator i2)
@@ -54,3 +60,13 @@ public:
         
     }
 };
+
+int main()
+{
+    Solution S;
+    vector<int> v = {1,2,3,4};
+    S.nextPermutation(v);
+    for(int x: v)
+        cout << x <<" ";
+    return 0;
+}

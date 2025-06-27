@@ -1,3 +1,8 @@
+// LeetCode Problem: https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/
+
+#include <iostream>
+#include <vector>
+using namespace std;
 class Solution {
 public:
     
