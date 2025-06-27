@@ -1,0 +1,7 @@
+# Ignore .exe files
+*.exe
+
+# Ignore VSCode settings folder
+.vscode/
+# Ignore Python cache files
+__pycache__/
