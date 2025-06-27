@@ -7,3 +7,6 @@
 
 # Ignore Python cache files
 __pycache__/
+
+# ignore excel files
+.xlsx
